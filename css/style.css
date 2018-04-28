@@ -1,0 +1,41 @@
+.parent {
+    position: relative;
+    height: 1000px;
+}
+
+.common_style {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    position: absolute;
+}
+
+.left_top {
+    background-color: blueviolet;
+    left: 0;
+}
+
+.right_top {
+    background-color: fuchsia;
+    right: 0;
+}
+
+.center {
+    background-color: brown;
+    right: 0;
+    left: 0;
+    top: 35%;
+    margin: 0 auto;
+}
+
+.left_bottom {
+    background-color: forestgreen;
+    left: 0;
+    bottom: 0;
+}
+
+.right_bottom {
+    background-color: dodgerblue;
+    bottom: 0;
+    right: 0;
+}
